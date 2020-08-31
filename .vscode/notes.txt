@@ -37,6 +37,7 @@ Why learn Python?
 
 
 Keywords and identifiers
+Keywords:
 	Keywords are the reserved words in python;
 	We can’t use a keyword as variable name, function name or any other identifier;
 	Keywords are case sensitive;
@@ -51,7 +52,31 @@ Python has straight forward Error indications;
 
 
 
+1 september 2020
 
+
+Comments, indentations and statements
+	Start a line with a # or use triple quotes, ‘’’ 		‘’’
+	Indentations are used (4 spaces preferred) to make blocks of code, a for loop
+Rather than writing code in a single line try to write in multiple lines (can use \) to make code readable
+The written instructions are called statements
+
+
+
+Variable is a location in memory used to store some data; Variable declaration is not needed
+a, b = 10, ‘Hi’
+id(a) prints location of a
+Data types:
+	Everything in python is an object;
+	Number: Integers, float and complex
+	Boolean: True and False
+	Strings: Sequence of Unicode characters, defined with quotes, indexable, slicable
+List: An ordered sequence of items, like an array, can have multiple data type elements, defined with square brackets; Lists are mutable
+Tuple: Defined with parenthesis, can have multiple data type elements, tuple is immutable, can be indexable
+Set: Defined with Curly braces, Set is an unordered collection of unique items; behaves as a set in mathematics; does not support indexing
+Dictionary: an unordered collection of key-value pairs, defined with curly braces and a colon, value accessible with key
+	Data types can be converted provided the value is valid in both data types;
+	List(‘Hello’) = [‘H’,’e’,’l’,’l’,’o’]
 
 
 
