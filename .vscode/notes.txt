@@ -62,7 +62,7 @@ Rather than writing code in a single line try to write in multiple lines (can us
 The written instructions are called statements
 
 
-
+Variables and data types in python
 Variable is a location in memory used to store some data; Variable declaration is not needed
 a, b = 10, ‘Hi’
 id(a) prints location of a
@@ -77,6 +77,207 @@ Set: Defined with Curly braces, Set is an unordered collection of unique items; 
 Dictionary: an unordered collection of key-value pairs, defined with curly braces and a colon, value accessible with key
 	Data types can be converted provided the value is valid in both data types;
 	List(‘Hello’) = [‘H’,’e’,’l’,’l’,’o’]
+
+
+
+
+Standard input and output
+	Output: 	print()
+			print(‘ {} {}’.format(a,b))
+			print(‘ {a} {b}’.format(a = 1, b = 2))
+	Input:		input()
+
+
+
+Operators
+	Operators are special symbols in python that allow arithmetic or logic computation. 
+	2 + 3 : + is an operator and 2, 3 are operands
+Types: Arithmetic, Comparison, Logical, Bitwise, Assignment, Special
+Arithmetic: +, -, *, /, %, //, ** (addition, subtraction, multiplication, division, modulo division, floor division, exponent)
+		15, 2: +: 17, - : 13, *: 30, /: 7.5, %: 1 (remainder), //: 7, **: 225;
+		-15//2 = -8
+	Comparison: <, >, !=, ==, >=, <=
+	Logical: and, or, not
+	Bitwise: 
+		a= 10, b = 4:
+			a & b: 1010 & 0100: 0000 (and) = 0
+			a | b: 1110 = 14
+			or: |, not: -, xor: ~, rightshift: >>, leftshift: <<
+			a>>b: 
+	Assignment operator:
+		=, +=, -=, *=, /=, %=, //=, **=, &=, |=
+		a += 10: a = a + 10
+	Identity operators:
+		is, is not
+	Membership operators:
+		In, not in
+
+
+
+
+
+
+Control flow: if else
+	If test expression:
+		statement(s)
+	Example:	num = 10
+			if num>0:
+				print(“number is positive”)
+			elif num ==0:
+				print(“zero”)
+			else:
+				print(“number is negative”)
+			print(“always printed”)
+
+
+
+
+
+Control flow: while loop
+	While loop: block of code runs until a test expression is true;
+	lst = [10, 20, 30, 40, 50]
+	index = 0
+	while index < len(lst):
+		product * = lst[index]
+		index += 1 # increment statement is important
+	0: 1*10, 1: 10*20, 2: 200*30,…
+	We can use an else block when the test condition fails;
+
+
+
+
+
+Control flow: for loop
+	Used to iterate over a sequence;
+	for element in sequence:
+		statement(s)
+	for ele in lst:
+		product *=ele
+	range(): range(10) will generate a list of 10 numbers from 0 to 9;
+
+
+
+
+Control flow: break and continue
+	for var in sequence:
+		if condition:
+			break
+
+
+Lists
+	Data Structures: collection of data elements
+List: Sequence data structures, these are indexable, mutable, defined by square brackets and elements are comma separated
+Operations on list:
+	len(list), append(element), insert(index, element), remove(element) (removes first occurrence only), list.append(element), list.extend(list), pop(index)
+	[‘one’, ’two’].append([‘one’, ’two’]) = [‘one’, ’two’, [‘one’, ’two’]] 
+	[‘one’, ’two’].extend([‘one’, ’two’]) = [‘one’, ’two’, ‘one’, ’two’] 
+	del lst[1]
+	list reverse: list.reverse()
+	sorted(list), list.sort()
+	lst = [1, 2, 3, 4, 5]; abc = lst; abc.append(6); print(lst)  [1, 2, 3, 4, 5, 6]
+•	lst and abc are pointers;
+	string.split(‘ ‘)
+	lst[index]
+	lst[slice_index_start: slice_index_end]
+	lst1 + lst2
+	lst.count()
+	for ele in lst: print(ele)
+	List comprehensions: [i**2 for i in range(10) if i%2 ==0]
+•	[[row[i] for row in matrix] for i in range(4)]
+
+
+
+Tuples part 1
+	A tuple is similar to list; Tuple is immutable, its elements cannot be altered;
+-	T = “abcd”, # comma is important to create a tuple
+-	Tuple access: T[1]
+-	Changing a tuple: a list in a tuple is mutable;
+-	Concat tuples using +
+Tuples part 2
+- Deletion: whole tuple will be deleted
+- Tuple.count(), tuple.index(element), element in tuple, element not in tuple, len(tuple), sorted(tuple), min(tuple), max(tuple), sum(tuple)
+
+
+
+
+Sets
+	Sets are unordered collection of unique items; Mutable, non-indexable;
+	S = {1, 2, 3}
+	Sets does not allow duplicate numbers;
+	set([1,2,3,1]) = (1, 2, 3)
+Operations: set.update(elements or sets), set.discard(element), set.remove(element), set.pop(), s.clear()
+	Set1 | Set2: Union; Set1.union(Set2)
+	Set1 & Set2, Set1.intersection(Set2)
+	Set1 – Set2, Set1.difference(Set2)
+	Set1^Set2, Set1.symmetric_difference(Set2)): Union - Intersection
+		Frozenset: immutable sets: Set1 = frozenset([1,2,3,4])
+
+
+
+Dictionary
+	An unordered collection of key value pairs;
+O(1) for time complexity for search tasks;
+Dictionary is mutable;
+Operations: dict.pop(key), dict.clear(), dict.fromkeys(list, values), dict.items(), .keys(), .values(), .copy()
+	Dictionary Comprehension:
+		for pair in d.items(): print(pair)
+		{k:v for k,v in d.items() if v>2}
+		{k:v for k+’c’,v*2 in d.items() if v>2}
+
+
+Strings
+	Sequence of characters: (Unicode (default) or ASCII)
+	S = “kl” or = str(1) 
+	Access characters of a string as a list;
+	Strings are immutable;
+	Operations: str1+str2; for i in string: ______; 
+	lower(), upper(), join(), split(), find(), replace()
+	“Bad Morning”.replace(“Bad”, “Good”)
+
+	Palindrome:
+		Mystr = “MaDam”
+		Mystr = Mystr.lower()
+		revStr = reversed(Mystr)
+		if list(Mystr) == list(revStr):
+			print(“Palindrome”)
+		else:
+			print(“Not palindrome”)
+	Alphabetic sort:
+		Word = word.split().sort()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
