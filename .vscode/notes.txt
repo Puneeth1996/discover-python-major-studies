@@ -2,12 +2,60 @@ Starting on 31 Aug 2020
 First of many, 
 
 Core AIM
+    Buuilding Portfolio ( proff of studies )
 
     Machine Learning , Data Science Jobs
+
+Reference Profiles Of Data Scientists, ML Engg, ...
+https://www.linkedin.com/in/karthik-kumar-billa/
+https://www.linkedin.com/in/cadarsh88/
+
 
 5pm
 
 Its breadth of knowledge that I look at in python 
+
+
+Basic installation for python 
+
+    Anaconda package installed with Python3.6
+
+Will also be using jupyter notebook, which will be installed as package with Anaconda
+
+
+pip install pandas matplotlib nltk numpy scipy scikit-learn seaborn 
+pip install --upgrade tensorflow
+pip install keras Pillow plotly
+
+
+Why learn Python?
+	Python is very simple to pick up;
+	Python is much more general purpose programming language;
+
+
+
+
+
+Keywords and identifiers
+	Keywords are the reserved words in python;
+	We can’t use a keyword as variable name, function name or any other identifier;
+	Keywords are case sensitive;
+        [Import keyword]
+	Example: False, None, True, class, if, else, return, def, try, while, for, etc
+	Total number of keywords: 33
+Identifiers:
+	Name given to entities like class, functions and variables
+	Can be a combination of letters, digits and underscores, cannot start with a digit
+	Keywords cannot be used as identifiers, special characters cannot be used
+Python has straight forward Error indications;
+
+
+
+
+
+
+
+
 
 
 
