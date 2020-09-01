@@ -34,7 +34,7 @@ Why learn Python?
 
 
 
-
+Chapter 2:	Python for Data Science Introduction
 
 Keywords and identifiers
 Keywords:
@@ -164,6 +164,10 @@ Control flow: break and continue
 			break
 
 
+
+
+Chapter 3:	Python for Data Science: Data Structures
+
 Lists
 	Data Structures: collection of data elements
 List: Sequence data structures, these are indexable, mutable, defined by square brackets and elements are comma separated
@@ -247,7 +251,7 @@ Strings
 
 
 
-
+Chapter 4:	Python for Data Science: Functions
 
 
 
