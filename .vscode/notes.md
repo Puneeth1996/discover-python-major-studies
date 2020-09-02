@@ -335,9 +335,12 @@ Modules
 Packages
 	__init__.py needs to be present in a folder to consider the folder as a package;
 	Packages contain modules;
-	 
-	import Game.Sound.play
 
+
+	```python
+  	 # python code
+  	import Game.Sound.play
+	```
 
 
 
