@@ -1,5 +1,3 @@
-Starting on 31 Aug 2020
-First of many, 
 
 Core AIM
     Buuilding Portfolio ( proff of studies )
