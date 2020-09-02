@@ -343,9 +343,9 @@ Packages
 
 
 
-![alt text](./images/4.7Packages.png  "From the packages!" )
+<!--  ![alt text](./images/4.7Packages.png  "From the packages!" ) -->
 
-
+<img src="./images/4.7Packages.png" width="350" title="hover text">
 
 
 
