@@ -1,11 +1,11 @@
 
-Core AIM
-    Buuilding Portfolio ( proff of studies )
+<h1>Core AIM</h1>
+    Buuilding Portfolio ( proof of studies )
 
     Machine Learning , Data Science Jobs
 
-Reference Profiles Of Data Scientists, ML Engg, ...
-https://www.linkedin.com/in/karthik-kumar-billa/
+Reference Profiles Of Data Scientists, ML Engg, ...<br/>
+https://www.linkedin.com/in/karthik-kumar-billa/<br/>
 https://www.linkedin.com/in/cadarsh88/
 
 
@@ -21,60 +21,87 @@ Basic installation for python
 Will also be using jupyter notebook, which will be installed as package with Anaconda
 
 
-pip install pandas matplotlib nltk numpy scipy scikit-learn seaborn 
-pip install --upgrade tensorflow
-pip install keras Pillow plotly
+pip install pandas matplotlib nltk numpy scipy scikit-learn seaborn <br/>
+pip install --upgrade tensorflow<br/>
+pip install keras Pillow plotly<br/>
 
 
-Why learn Python?
-	Python is very simple to pick up;
-	Python is much more general purpose programming language;
+Why learn Python?<br/>
+
+	- Python is very simple to pick up;
+	- Python is much more general purpose programming language;
 
 
 
-Chapter 2:	Python for Data Science Introduction
+# Chapter 2:	Python for Data Science Introduction
 
-Keywords and identifiers
+## Keywords and identifiers
 Keywords:
 	Keywords are the reserved words in python;
+
 	We can’t use a keyword as variable name, function name or any other identifier;
+
 	Keywords are case sensitive;
+
         [Import keyword]
+
 	Example: False, None, True, class, if, else, return, def, try, while, for, etc
+
 	Total number of keywords: 33
-Identifiers:
-	Name given to entities like class, functions and variables
+
+Identifiers:Name given to entities like class, functions and variables
+	
 	Can be a combination of letters, digits and underscores, cannot start with a digit
+
 	Keywords cannot be used as identifiers, special characters cannot be used
-Python has straight forward Error indications;
+
+	Python has straight forward Error indications;
 
 
 
-1 september 2020
+
+### 1 september 2020
 
 
-Comments, indentations and statements
-	Start a line with a # or use triple quotes, ‘’’ 		‘’’
-	Indentations are used (4 spaces preferred) to make blocks of code, a for loop
+## Comments, indentations and statements
+Start a line with a # or use triple quotes, ‘’’ 		‘’’
+
+Indentations are used (4 spaces preferred) to make blocks of code, a for loop
+
 Rather than writing code in a single line try to write in multiple lines (can use \) to make code readable
+
 The written instructions are called statements
 
 
 Variables and data types in python
+
 Variable is a location in memory used to store some data; Variable declaration is not needed
+
 a, b = 10, ‘Hi’
+
 id(a) prints location of a
+
 Data types:
+
 	Everything in python is an object;
+
 	Number: Integers, float and complex
+
 	Boolean: True and False
+
 	Strings: Sequence of Unicode characters, defined with quotes, indexable, slicable
+
 List: An ordered sequence of items, like an array, can have multiple data type elements, defined with square brackets; Lists are mutable
+
 Tuple: Defined with parenthesis, can have multiple data type elements, tuple is immutable, can be indexable
+
 Set: Defined with Curly braces, Set is an unordered collection of unique items; behaves as a set in mathematics; does not support indexing
+
 Dictionary: an unordered collection of key-value pairs, defined with curly braces and a colon, value accessible with key
-	Data types can be converted provided the value is valid in both data types;
-	List(‘Hello’) = [‘H’,’e’,’l’,’l’,’o’]
+
+Data types can be converted provided the value is valid in both data types;
+
+List(‘Hello’) = [‘H’,’e’,’l’,’l’,’o’]
 
 
 
@@ -115,7 +142,7 @@ Arithmetic: +, -, *, /, %, //, ** (addition, subtraction, multiplication, divisi
 
 
 
-Control flow: if else
+## Control flow: if else
 	If test expression:
 		statement(s)
 	Example:	num = 10
@@ -131,7 +158,7 @@ Control flow: if else
 
 
 
-Control flow: while loop
+## Control flow: while loop
 	While loop: block of code runs until a test expression is true;
 	lst = [10, 20, 30, 40, 50]
 	index = 0
@@ -145,7 +172,7 @@ Control flow: while loop
 
 
 
-Control flow: for loop
+## Control flow: for loop
 	Used to iterate over a sequence;
 	for element in sequence:
 		statement(s)
@@ -156,7 +183,7 @@ Control flow: for loop
 
 
 
-Control flow: break and continue
+## Control flow: break and continue
 	for var in sequence:
 		if condition:
 			break
@@ -164,9 +191,9 @@ Control flow: break and continue
 
 
 
-Chapter 3:	Python for Data Science: Data Structures
+# Chapter 3:	Python for Data Science: Data Structures
 
-Lists
+## Lists
 	Data Structures: collection of data elements
 List: Sequence data structures, these are indexable, mutable, defined by square brackets and elements are comma separated
 Operations on list:
@@ -189,20 +216,20 @@ Operations on list:
 
 
 
-Tuples part 1
+## Tuples part 1
 	A tuple is similar to list; Tuple is immutable, its elements cannot be altered;
 -	T = “abcd”, # comma is important to create a tuple
 -	Tuple access: T[1]
 -	Changing a tuple: a list in a tuple is mutable;
 -	Concat tuples using +
-Tuples part 2
+## Tuples part 2
 - Deletion: whole tuple will be deleted
 - Tuple.count(), tuple.index(element), element in tuple, element not in tuple, len(tuple), sorted(tuple), min(tuple), max(tuple), sum(tuple)
 
 
 
 
-Sets
+## Sets
 	Sets are unordered collection of unique items; Mutable, non-indexable;
 	S = {1, 2, 3}
 	Sets does not allow duplicate numbers;
@@ -216,7 +243,7 @@ Operations: set.update(elements or sets), set.discard(element), set.remove(eleme
 
 
 
-Dictionary
+## Dictionary
 	An unordered collection of key value pairs;
 O(1) for time complexity for search tasks;
 Dictionary is mutable;
@@ -227,7 +254,7 @@ Operations: dict.pop(key), dict.clear(), dict.fromkeys(list, values), dict.items
 		{k:v for k+’c’,v*2 in d.items() if v>2}
 
 
-Strings
+## Strings
 	Sequence of characters: (Unicode (default) or ASCII)
 	S = “kl” or = str(1) 
 	Access characters of a string as a list;
@@ -249,9 +276,9 @@ Strings
 
 
 
-Chapter 4:	Python for Data Science: Functions
+# Chapter 4:	Python for Data Science: Functions
 
-Introduction Functions:	
+## Introduction Functions:	
 	a group of related statements that perform a specific task;
 	Converts a program into smaller chunk which makes management easy
 		def function():
@@ -276,7 +303,7 @@ Introduction Functions:
 				hcf = i 
 		return hcf
 
-Built-in Functions and User defined functions;
+## Built-in Functions and User defined functions;
 	Built-in: abs(), all(), any(), dir(), divmod(), enumerate(), filter(), map(), reduce(), isinstance(), 
 		enumerate(): returns a list with an index
 	filter(): applies a function on a list to reduce the list
@@ -290,20 +317,20 @@ Built-in Functions and User defined functions;
 
 
 
-Function arguments
+## Function arguments
 	Functions need inputs which take in values through arguments;
 	Default arguments: to give default values to a function;` have default arguments at the end
 	Keyword arguments: variable number of arguments can be given as input;
 	Arbitrary arguments: Used when number of arguments are unknown given as input to the function;
 
 
-Recursive functions
+## Recursive functions
 	Function calling inside itself;
 	Factorial(n) = n*Factorial(n-1)
 	Stack of function calls; Makes code clean, hard to debug;
 
 
-Lambda functions
+## Lambda functions
 		Functions without name; used along with filter and map
 		Def Double(x):
 			return x*2
@@ -313,7 +340,7 @@ Lambda functions
 		reduce(lambda x, y : x* y, [1, 2, 3, 4, 5])
 
 
-Modules
+## Modules
 		Module refers to file containing statements and definitions;
 		A .py file containing code that is used in other programs
 		Module: example.py
@@ -331,7 +358,7 @@ Modules
 
 
 
-Packages
+## Packages
 	__init__.py needs to be present in a folder to consider the folder as a package;
 	Packages contain modules;
 
