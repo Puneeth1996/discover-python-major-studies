@@ -377,6 +377,58 @@ Operations: dict.pop(key), dict.clear(), dict.fromkeys(list, values), dict.items
 
 
 
+## File Handling
+
+	Storing data in hard disk which is non-volatile:
+	Open, read and close
+	File = open(‘example.txt’)
+	File can be open in different modes:
+		‘r’, reading (default)
+		‘w’, writing (creates a new file, if exists deletes it)
+		‘a’, appending
+	Closing a file:
+	File.close() # to make sure the data is not volatile
+	
+	Use safer “try finally” block: Exception handling
+	import os	
+    os.mkdir(‘test’)
+    	os.rmdir(‘test’) # does not remove if test is not empty
+    	import shutil
+    	shutil.rmtree(‘test’) # removes non-empty folders
+
+
+
+
+<br/><br/>
+
+## Exception Handling
+
+Whenever an error is observed, python interpreter raises an error;
+	Use:
+	 
+<img src="./images/4.9ExceptionHandling.png" width="350" title="hover text">
+
+	Raising exceptions:
+		For example: Memory error
+	 
+<img src="./images/4.9ExceptionHandling2.png" width="350" title="hover text">
+Finally block runs at the end of all operations, such as closing the file even if the file is not written, to save data.
+
+
+
+
+<br/><br/><br/>
+
+
+## Debugging Python
+	Python debugger: pdb	
+
+<img src="./images/4.10DebuggingPython.png" width="350" title="hover text">
+
+
+
+<img src="./images/4.10DebuggingPython2.png" width="350" title="hover text">
+	Comes to pdb.set.trace at every iteration, requires string input to give results
 
 
 
@@ -384,14 +436,11 @@ Operations: dict.pop(key), dict.clear(), dict.fromkeys(list, values), dict.items
 
 
 
+<br/><br/><br/>
 
 
-
-
-
-
-
-
+## Note!
+<p  style="font-size: 30px">Please start checking the folder numpy pandas matplotlib algo . . .</p>
 
 
 
