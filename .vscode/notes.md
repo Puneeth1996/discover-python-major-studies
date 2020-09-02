@@ -253,15 +253,90 @@ Strings
 
 Chapter 4:	Python for Data Science: Functions
 
+Introduction Functions:	
+	a group of related statements that perform a specific task;
+	Converts a program into smaller chunk which makes management easy
+		def function():
+			‘’’
+			Doc string
+			‘’’
+			statements
+			return
+	Doc strings is written to explain the working of the function (function.__doc__)
+	Scope and Life Time of Variables:	Portion of the code where the variable is recognized and Lifetime is the period throughout which the variable exists in memory
+	Variable inside a function are local variables which are destroyed once the function finishes execution; Global variables are not destroyed unless deleted;
+	Program to print highest common factor (HCF): 
+		
+	def computeHCF(a, b):
+		“””
+		Computing HCF of two numbers
+		“””
+		Smaller =b if a>b else a
+		hcf = 1
+		for i in range(1, smaller + 1):
+			if (a%i==0) and (b%i==0):
+				hcf = i 
+		return hcf
+
+Built-in Functions and User defined functions;
+	Built-in: abs(), all(), any(), dir(), divmod(), enumerate(), filter(), map(), reduce(), isinstance(), 
+		enumerate(): returns a list with an index
+	filter(): applies a function on a list to reduce the list
+	map(): applies a function on all items of a list
+		def PowerOfTwo(num):
+			Return num**2
+		map(PowerOfTwo, list)
+		reduce(): applies a computation and returns a result; 
+	
+	map filter reduce does rolling computation for sequential pairs of values in list
 
 
 
+Function arguments
+	Functions need inputs which take in values through arguments;
+	Default arguments: to give default values to a function;` have default arguments at the end
+	Keyword arguments: variable number of arguments can be given as input;
+	Arbitrary arguments: Used when number of arguments are unknown given as input to the function;
+
+
+Recursive functions
+	Function calling inside itself;
+	Factorial(n) = n*Factorial(n-1)
+	Stack of function calls; Makes code clean, hard to debug;
+
+
+Lambda functions
+		Functions without name; used along with filter and map
+		Def Double(x):
+			return x*2
+	Can also be defined as:
+	Double = lambda x : x*2
+		Example: list(filter(lambda x : (x%2==0), [1,2,3,4,5])); Output: [2, 4]
+		reduce(lambda x, y : x* y, [1, 2, 3, 4, 5])
+
+
+Modules
+		Module refers to file containing statements and definitions;
+		A .py file containing code that is used in other programs
+		Module: example.py
+			import example
+	-	import math
+	-	math.pi
+			import math as m
+			import datetime
+	Module is basically a file which contains classes and functions.
+	Package is a kind of directory which contains modules of similar type.
+	Library is a collection of Packages.
+	Framework is collection of Libraries.
+	Use dir() to get all names functions inside the module
 
 
 
-
-
-
+Packages
+	__init__.py needs to be present in a folder to consider the folder as a package;
+	Packages contain modules;
+	 
+	import Game.Sound.play
 
 
 
