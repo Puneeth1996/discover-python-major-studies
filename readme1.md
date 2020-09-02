@@ -342,11 +342,6 @@ Packages
 
 
 
-### this what it means
-
-
-![alt text](https://raw.githubusercontent.com/Puneeth1996/discover-python-major-studies/master/images/4.7Packages.png "From the packages!")
-
 
 ![alt text](./images/4.7Packages.png  "From the packages!" )
 
