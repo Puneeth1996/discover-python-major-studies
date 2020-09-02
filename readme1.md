@@ -342,10 +342,10 @@ Packages
 
 
 
-the relative img
+### this what it means
 
 
-    ![al text](https://raw.githubusercontent.com/Puneeth1996/discover-python-major-studies/master/images/4.7Packages.png)
+![alt text](https://raw.githubusercontent.com/Puneeth1996/discover-python-major-studies/master/images/4.7Packages.png)
 
 
 
