@@ -2,7 +2,7 @@ from glob import glob
 import os, shutil
 import pikepdf, pdfplumber
 
-PATH = r'C:\Users\punee\Desktop\readLinks_pdf_download\test'
+PATH = input('Please enter the path: ')
 
 EXT = "*.pdf"
 temp_cfn = [file
