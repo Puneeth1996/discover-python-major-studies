@@ -1,0 +1,21 @@
+(3.12) Exercise:
+
+Download Haberman Cancer Survival dataset from Kaggle. You may have to create a Kaggle account to donwload data. (https://www.kaggle.com/gilsousa/habermans-survival-data-set)
+
+
+
+Perform a similar alanlaysis as above on this dataset with the following sections:
+
+   High level statistics of the dataset: number of points, numer of features, number of classes, data-points per class.
+
+   Explain our objective.
+
+   Perform Univaraite analysis(PDF, CDF, Boxplot, Voilin plots) to understand which features are useful towards classification.
+
+   Perform Bi-variate analysis (scatter plots, pair-plots) to see if combinations of features are useful in classfication.
+
+   Write your observations in english as crisply and unambigously as possible. Always quantify your results.
+
+
+
+
