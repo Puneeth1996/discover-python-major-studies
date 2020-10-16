@@ -26,7 +26,7 @@ pip install --upgrade tensorflow<br/>
 pip install keras Pillow plotly<br/>
 
 
-Why learn Python?<br/>
+Why learn Python?<br/>****
 
 	- Python is very simple to pick up;
 	- Python is much more general purpose programming language;
