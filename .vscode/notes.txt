@@ -10,3 +10,12 @@ readme1.md
 10 Linear Algrebra Series
 
 
+20Oct 2020
+1pm
+
+
+10.6 - Distance of a point from a PlaneHyperplane, Half-Spaces
+
+
+
+

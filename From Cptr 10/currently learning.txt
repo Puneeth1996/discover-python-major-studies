@@ -1,0 +1,189 @@
+Oct-20-2020
+
+
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+C:\Users\punee\Desktop\python-ds\currently_learning and ['10.10 - Hyper Cube,Hyper Cuboid', '10.11 - Revision Questions', '10.7 - Equation of a Circle (2-D), Sphere (3-D) and Hypersphere (n-D)', '10.8 - Equation of an Ellipse (2-D), Ellipsoid (3-D) and Hyperellipsoid (n-D)', '10.9 - Square ,Rectangle', '11.1 - Introduction to Probability and Statistics', '11.10 - How distributions are used', '11.11 - Chebyshev’s inequality', '11.12 - Discrete and Continuous Uniform distributions', '11.13 - How to randomly sample data points (Uniform Distribution)', '11.14 - Bernoulli and Binomial Distribution', '11.15 - Log Normal Distribution', '11.16 - Power law distribution', '11.17 - Box cox transform', '11.18 - Applications of non-gaussian distributions', '11.19 - Co-variance', '11.2 - Population and Sample', '11.20 - Pearson Correlation Coefficient', '11.21 - Spearman Rank Correlation Coefficient', '11.22 - Correlation vs Causation', '11.23 - How to use correlations', '11.24 - Confidence interval (C.I) Introduction', '11.25 - Computing confidence interval given the underlying distribution', '11.26 - C.I for mean of a normal random variable', '11.27 - Confidence interval using bootstrapping', '11.28 - Hypothesis testing methodology, Null-hypothesis, p-value', '11.29 - Hypothesis Testing Intution with coin toss example', '11.3 - GaussianNormal Distribution and its PDF(Probability Density Function)', '11.30 - Resampling and permutation test', '11.31 - K-S Test for similarity of two distributions', '11.32 - Code Snippet K-S Test', '11.33 - Hypothesis testing another example', '11.34 - Resampling and Permutation test another example', '11.35 - How to use hypothesis testing', '11.36 - Proportional Sampling', '11.37 - Revision Questions', '11.4 - CDF(Cumulative Distribution function) of GaussianNormal distribution', '11.5 - Symmetric distribution, Skewness and Kurtosis', '11.6 - Standard normal variate (Z) and standardization', '11.7 - Kernel density estimation', '11.8 - Sampling distribution & Central Limit theorem', '11.9 - Q-Q plotHow to test if a random variable is normally distributed or not'] and []
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\10.10 - Hyper Cube,Hyper Cuboid and [] and ['10.10 - Hyper Cube,Hyper Cuboid.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+10.10 - Hyper Cube,Hyper Cuboid.mp4
+Vedio Duration = 0hrs:2mins:27secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\10.11 - Revision Questions and [] and ['FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\10.7 - Equation of a Circle (2-D), Sphere (3-D) and Hypersphere (n-D) and [] and ['10.7 - Equation of a Circle (2-D), Sphere (3-D) and Hypersphere (n-D).mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+10.7 - Equation of a Circle (2-D), Sphere (3-D) and Hypersphere (n-D).mp4
+Vedio Duration = 0hrs:6mins:28secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\10.8 - Equation of an Ellipse (2-D), Ellipsoid (3-D) and Hyperellipsoid (n-D) and [] and ['10.8 - Equation of an Ellipse (2-D), Ellipsoid (3-D) and Hyperellipsoid (n-D).mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+10.8 - Equation of an Ellipse (2-D), Ellipsoid (3-D) and Hyperellipsoid (n-D).mp4
+Vedio Duration = 0hrs:5mins:42secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\10.9 - Square ,Rectangle and [] and ['10.9 - Square ,Rectangle.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+10.9 - Square ,Rectangle.mp4
+Vedio Duration = 0hrs:5mins:10secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.1 - Introduction to Probability and Statistics and [] and ['11.1 - Introduction to Probability and Statistics.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.1 - Introduction to Probability and Statistics.mp4
+Vedio Duration = 0hrs:16mins:28secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.10 - How distributions are used and [] and ['11.10 - How distributions are used.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.10 - How distributions are used.mp4
+Vedio Duration = 0hrs:16mins:15secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.11 - Chebyshev’s inequality and [] and ['11.11 - Chebyshev’s inequality.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.11 - Chebyshev’s inequality.mp4
+Vedio Duration = 0hrs:19mins:40secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.12 - Discrete and Continuous Uniform distributions and [] and ['11.12 - Discrete and Continuous Uniform distributions.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.12 - Discrete and Continuous Uniform distributions.mp4
+Vedio Duration = 0hrs:12mins:1secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.13 - How to randomly sample data points (Uniform Distribution) and [] and ['11.13 - How to randomly sample data points (Uniform Distribution).mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.13 - How to randomly sample data points (Uniform Distribution).mp4
+Vedio Duration = 0hrs:9mins:43secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.14 - Bernoulli and Binomial Distribution and [] and ['11.14 - Bernoulli and Binomial Distribution.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.14 - Bernoulli and Binomial Distribution.mp4
+Vedio Duration = 0hrs:10mins:43secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.15 - Log Normal Distribution and [] and ['11.15 - Log Normal Distribution.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.15 - Log Normal Distribution.mp4
+Vedio Duration = 0hrs:11mins:40secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.16 - Power law distribution and [] and ['11.16 - Power law distribution.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.16 - Power law distribution.mp4
+Vedio Duration = 0hrs:11mins:38secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.17 - Box cox transform and [] and ['11.17 - Box cox transform.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.17 - Box cox transform.mp4
+Vedio Duration = 0hrs:11mins:16secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.18 - Applications of non-gaussian distributions and [] and ['11.18 - Applications of non-gaussian distributions.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.18 - Applications of non-gaussian distributions.mp4
+Vedio Duration = 0hrs:25mins:34secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.19 - Co-variance and [] and ['11.19 - Co-variance.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.19 - Co-variance.mp4
+Vedio Duration = 0hrs:13mins:59secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.2 - Population and Sample and [] and ['11.2 - Population and Sample.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.2 - Population and Sample.mp4
