@@ -117,6 +117,79 @@ At every point in the range of the Gaussian Kernels we will add all PDF values t
 
 
 
+11.15am
+
+
+12.8	Sampling distribution & Central Limit theorem
+	Let X be a not necessarily Gaussian distribution of a population (say incomes)
+	Pick m random Samples independently of size n each  S1, S2, S3, …., Sm
+	 For all Samples: compute means, x1m, x2m, x3m, ……
+	These sample means will have a distribution: Sampling distribution of sample-mean
+	Central Limit Theorem: If X (original population), X: finite mean and variance
+Sampling distribution of sample means will be a Gaussian distribution with 		mean = population mean and variance = population variance/n as n increases
+It is generally observed that if n is around 30 and m = 1000, we can observe a Gaussian distribution;
+
+
+
+
+
+
+12.9	Q-Q plot: How to test if a random variable is normally distributed or not?
+Quantile – Quantile plot: Graphical way of determining similarity between two distributions
+	X: a new distribution: Task: to understand whether X is Gaussian
+1.	Sort X values and compute percentiles;
+2.	Y ~ N(0,1): take some k observations and sort + compute percentiles
+3.	Plot: X percentile values on Y axis and Y percentile values on x axis
+If the plot is approximately a straight line then the distributions are similar;
+ 
+Code: stats.probplot(X, dist = ‘norm’, plot = pylab)
+If number of observations is small it is hard to interpret QQ plot;
+ 
+Plot where distributions are different;
+
+
+
+
+12.10	How distributions are used?
+	Probability is useful for data analysis;
+Ex: Imagine your task is to order T shirts for all employees at your company. Let sizes be S, M, L and XL. Say we have 100k employees who have different size requirements; 
+Q) How many XL T shirts should be ordered?
+	Collect data for all 100k employees
+	Let us have a relationship between heights and T shirt size; Domain knowledge;
+	Collect heights from 500 random employees; Compute mean and std dev
+	At gate of entry we can do this;
+	From domain knowledge, let heights ~N(mean, variance)
+We can extend the distribution of heights from 500 employees to 100k employees; We made many assumptions here; these may work in natural features
+Q) Salaries: If salaries are Gaussian distributed, we can estimate how many employees make a salary > 100k $;	
+So distributions give us a theoretical model of a random variable; This will help us understand the properties of the random variable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
