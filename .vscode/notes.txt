@@ -20,6 +20,109 @@ readme1.md
 
 
 
+26 Oct 2020
+9.45am 
+
+Chapter 12: Probability and Statistics
+12.1	Introduction to Probability and Statistics
+Datasets with well separable classes do not require ML methods to be applied, but classes that are well mixed cannot be separated easily;
+The data points that lie in the mixed region cannot be clearly stated to belong to a certain class; instead we can have probability values of the data point belonging to each class;
+Histograms, PDF, CDF, mean, variance, etc come under probability and statistics
+Random Variable: can take multiple values in a random manner
+	Ex: Dice with 6 sides: Roll a fair dice: the 6 outcomes of the dice are equally likely
+	r.v. X = {1, 2, 3, 4, 5, 6}
+	Coin toss: r.v. X = {H, T}
+	Dice roll: Probability of X = 1 is 1/6
+	Probability of X = even is {2,3,4}/{1,2,3,4,5,6} = 3/6 = ½
+			= prob(x=2) + prob(x=4) + prob(x=6)
+	Height of a randomly picked student: Y = [120 to 190 cm]
+	Discrete random variable: a value from a set of values
+	Continuous random variable: a value from a range of values
+Outlier: Y: Height of students: 
+	Let: Y = {122.2, 146.4, 132.5, …, 12.26, 156.23, 92.6}
+Outliers: 92.6 and 12.26: may have occurred due to input error or data collection error or may be a genuine value but does not indicate general trend of the population
+
+
+
+
+12.2	Population and Sample
+Population example: Set of heights of all people in the world;
+Task: estimate the average height of a human;
+	Mean = (1/n) sum(h)
+Collecting all the population height data is not possible; we will take a random sample (subset of the population) 
+
+
+
+
+12.3	Gaussian/Normal Distribution and its PDF (Probability Density Function)
+	Bell shaped curve: Gaussian distribution Probability density function curve;
+	X: continuous random variable;
+	Real world variables mostly follow Gaussian distribution; Height, Weight, Length 
+We learn distributions to understand the underlying statistics or trends of the population
+If X behaves as a Gaussian distribution: Given mean and standard variance:
+	We can estimate the values of the population; by plotting the PDF
+ 
+The red curve is standard normal distribution
+Parameters of Gaussian distribution: Mean and variance:
+X ~ N (0,1) (mean 0 and variance 1)
+	PDF(X = x) = (1/sqrt(2π) σ) exp(-(x-µ)2/2σ2)
+	As x moves from mean, the pdf reduces;
+	The PDF of a Normal distribution is symmetric;
+
+
+
+	
+12.4	CDF (Cumulative Distribution Function) of Gaussian/Normal distribution
+	 
+	N(µ,2σ2);
+	As variance decreases the plot gets converted to a step function;
+ 
+Standard deviation plot: 68 – 95 – 99.7 rule
+
+
+12.5	Symmetric distribution, Skewness and Kurtosis
+	One of the applications of these stats is to understand the distribution;
+If the PDF has a mirror image of the curve of the either sides of the mean, then the distribution is symmetric over mean; as in above std dev plot;
+F(x0 – h) = F(x0 + h): function symmetric over x0 
+
+Skewness: around the mean the distribution is not symmetric; one of the sides has a longer tail; can be said to be a measure of asymmetry;
+ 
+Sample Skewness:
+ 
+ 
+Kurtosis:
+Excess kurtosis: kurtosis – 3
+ 
+ 
+Kurtosis of Gaussian random variable =3;
+Through excess kurtosis we compare distributions with Gaussian random distribution
+	Kurtosis is a measure of tailedness; it is not a measure of peakedness;
+	This will give us an idea of outliers in the distribution; Smaller the better
+
+
+
+12.6	Standard normal variate (Z) and standardization
+	Z ~ N(0,1), mean = 0 and variance = 1
+	Let X ~ N(µ,σ2); this can be converted to Z by:
+Mean centering and scaling (X – mean) / std dev; To help understand the disb.
+
+
+
+12.7	Kernel density estimation
+	 
+	Computing PDF from Histograms: using KDE;
+	A Gaussian Kernel is plotted centered at each observation (of the histogram);
+	Variance of this Kernel (bell curve) is called band width;
+At every point in the range of the Gaussian Kernels we will add all PDF values to get a combined PDF; bandwidth selection is done by experts;
+
+
+
+
+
+
+
+
+
 
 
 
