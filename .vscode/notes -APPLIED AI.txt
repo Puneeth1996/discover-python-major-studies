@@ -1,0 +1,551 @@
+
+
+Starting on 31 Aug 2020
+
+readme1.md
+
+
+16Oct 2020
+
+10 Linear Algrebra Series
+
+
+20Oct 2020
+1pm
+10.6 - Distance of a point from a PlaneHyperplane, Half-Spaces
+
+
+1.15pm
+11.1 - Introduction to Probability and Statistics
+
+
+
+26 Oct 2020
+9.45am 
+
+Chapter 12: Probability and Statistics
+12.1	Introduction to Probability and Statistics
+Datasets with well separable classes do not require ML methods to be applied, but classes that are well mixed cannot be separated easily;
+The data points that lie in the mixed region cannot be clearly stated to belong to a certain class; instead we can have probability values of the data point belonging to each class;
+Histograms, PDF, CDF, mean, variance, etc come under probability and statistics
+Random Variable: can take multiple values in a random manner
+	Ex: Dice with 6 sides: Roll a fair dice: the 6 outcomes of the dice are equally likely
+	r.v. X = {1, 2, 3, 4, 5, 6}
+	Coin toss: r.v. X = {H, T}
+	Dice roll: Probability of X = 1 is 1/6
+	Probability of X = even is {2,3,4}/{1,2,3,4,5,6} = 3/6 = ½
+			= prob(x=2) + prob(x=4) + prob(x=6)
+	Height of a randomly picked student: Y = [120 to 190 cm]
+	Discrete random variable: a value from a set of values
+	Continuous random variable: a value from a range of values
+Outlier: Y: Height of students: 
+	Let: Y = {122.2, 146.4, 132.5, …, 12.26, 156.23, 92.6}
+Outliers: 92.6 and 12.26: may have occurred due to input error or data collection error or may be a genuine value but does not indicate general trend of the population
+
+
+
+
+12.2	Population and Sample
+Population example: Set of heights of all people in the world;
+Task: estimate the average height of a human;
+	Mean = (1/n) sum(h)
+Collecting all the population height data is not possible; we will take a random sample (subset of the population) 
+
+
+
+
+12.3	Gaussian/Normal Distribution and its PDF (Probability Density Function)
+	Bell shaped curve: Gaussian distribution Probability density function curve;
+	X: continuous random variable;
+	Real world variables mostly follow Gaussian distribution; Height, Weight, Length 
+We learn distributions to understand the underlying statistics or trends of the population
+If X behaves as a Gaussian distribution: Given mean and standard variance:
+	We can estimate the values of the population; by plotting the PDF
+ 
+The red curve is standard normal distribution
+Parameters of Gaussian distribution: Mean and variance:
+X ~ N (0,1) (mean 0 and variance 1)
+	PDF(X = x) = (1/sqrt(2π) σ) exp(-(x-µ)2/2σ2)
+	As x moves from mean, the pdf reduces;
+	The PDF of a Normal distribution is symmetric;
+
+
+
+	
+12.4	CDF (Cumulative Distribution Function) of Gaussian/Normal distribution
+	 
+	N(µ,2σ2);
+	As variance decreases the plot gets converted to a step function;
+ 
+Standard deviation plot: 68 – 95 – 99.7 rule
+
+
+12.5	Symmetric distribution, Skewness and Kurtosis
+	One of the applications of these stats is to understand the distribution;
+If the PDF has a mirror image of the curve of the either sides of the mean, then the distribution is symmetric over mean; as in above std dev plot;
+F(x0 – h) = F(x0 + h): function symmetric over x0 
+
+Skewness: around the mean the distribution is not symmetric; one of the sides has a longer tail; can be said to be a measure of asymmetry;
+ 
+Sample Skewness:
+ 
+ 
+Kurtosis:
+Excess kurtosis: kurtosis – 3
+ 
+ 
+Kurtosis of Gaussian random variable =3;
+Through excess kurtosis we compare distributions with Gaussian random distribution
+	Kurtosis is a measure of tailedness; it is not a measure of peakedness;
+	This will give us an idea of outliers in the distribution; Smaller the better
+
+
+
+12.6	Standard normal variate (Z) and standardization
+	Z ~ N(0,1), mean = 0 and variance = 1
+	Let X ~ N(µ,σ2); this can be converted to Z by:
+Mean centering and scaling (X – mean) / std dev; To help understand the disb.
+
+
+
+12.7	Kernel density estimation
+	 
+	Computing PDF from Histograms: using KDE;
+	A Gaussian Kernel is plotted centered at each observation (of the histogram);
+	Variance of this Kernel (bell curve) is called band width;
+At every point in the range of the Gaussian Kernels we will add all PDF values to get a combined PDF; bandwidth selection is done by experts;
+
+
+
+11.15am
+
+
+12.8	Sampling distribution & Central Limit theorem
+	Let X be a not necessarily Gaussian distribution of a population (say incomes)
+	Pick m random Samples independently of size n each  S1, S2, S3, …., Sm
+	 For all Samples: compute means, x1m, x2m, x3m, ……
+	These sample means will have a distribution: Sampling distribution of sample-mean
+	Central Limit Theorem: If X (original population), X: finite mean and variance
+Sampling distribution of sample means will be a Gaussian distribution with 		mean = population mean and variance = population variance/n as n increases
+It is generally observed that if n is around 30 and m = 1000, we can observe a Gaussian distribution;
+
+
+
+
+
+
+12.9	Q-Q plot: How to test if a random variable is normally distributed or not?
+Quantile – Quantile plot: Graphical way of determining similarity between two distributions
+	X: a new distribution: Task: to understand whether X is Gaussian
+1.	Sort X values and compute percentiles;
+2.	Y ~ N(0,1): take some k observations and sort + compute percentiles
+3.	Plot: X percentile values on Y axis and Y percentile values on x axis
+If the plot is approximately a straight line then the distributions are similar;
+ 
+Code: stats.probplot(X, dist = ‘norm’, plot = pylab)
+If number of observations is small it is hard to interpret QQ plot;
+ 
+Plot where distributions are different;
+
+
+
+
+12.10	How distributions are used?
+	Probability is useful for data analysis;
+Ex: Imagine your task is to order T shirts for all employees at your company. Let sizes be S, M, L and XL. Say we have 100k employees who have different size requirements; 
+Q) How many XL T shirts should be ordered?
+	Collect data for all 100k employees
+	Let us have a relationship between heights and T shirt size; Domain knowledge;
+	Collect heights from 500 random employees; Compute mean and std dev
+	At gate of entry we can do this;
+	From domain knowledge, let heights ~N(mean, variance)
+We can extend the distribution of heights from 500 employees to 100k employees; We made many assumptions here; these may work in natural features
+Q) Salaries: If salaries are Gaussian distributed, we can estimate how many employees make a salary > 100k $;	
+So distributions give us a theoretical model of a random variable; This will help us understand the properties of the random variable;
+
+
+
+4.20pm
+
+12.11	Chebyshev’s inequality
+If we don’t know the distribution and mean is finite and standard deviation is non-zero and finite;
+Task: to find the percentage of values of lie within a range;
+Salaries of individuals (millions of values); distribution is unknown, but mean and std dev are known;
+P(|x - µ| >= kσ) <= 1/k2
+
+
+
+
+
+
+12.12	Discrete and Continuous Uniform distributions
+	PDF for continuous and PMF for discrete random variables;
+	Roll a dice: uniform distribution; each observation is equally probable;
+	Discrete Uniform: 
+Parameters (a,b,n=b-a+1)
+		Pmf = 1/n
+		Mean = (a+b) /2 = Median
+		Variance = ((b-a+1)2-1)/12
+		Skewness = 0
+	Continuous Uniform:
+		 Parameter: a,b
+		PDF: 1/(b-a)
+		Mean: (a+b)/2 = Median
+Variance = (b-a)2/12
+
+
+29 Oct 2020
+3.30pm
+
+
+12.13	How to randomly sample data points (Uniform Distribution)
+	Using random functions in python;
+	We can use a threshold value to generate a random number of random numbers;
+	Probability of picking any value is equally probable;
+
+
+
+12.14	Bernoulli and Binomial Distribution
+	Bernoulli: discrete: Coin toss:{H, T}, P = {0.5, 0.5}; parameter p
+	Binomial: X ~ Bernoulli and Y = n times X; parameters: n, p
+	An event with n trials with success probability p in each trial and p = 0 or 1
+12.15	Log Normal Distribution
+	X is log normal if natural logarithm of x is normally distributed;
+	  
+In user reviews: most of comments are of small length and some of comments have large length of words;
+We can employ QQ plot to check similarity of log of distribution to normal distribution;
+12.16	Power law distribution
+	 
+	Green area is 80% values;
+	In bottom 20% of values you can find 80% of mass;
+When a distribution follows a power law then the distribution is called Pareto distribution; 
+Parameters: scale and shape
+  
+Applications: allocation of wealth in population, sizes of human settlements; 
+  
+We can also use a QQ plot against Pareto plot;
+
+
+
+4pm
+
+
+
+
+12.17	Box cox transform
+	Power transform:
+	In Machine Learning we assume generally that a feature follows a Gaussian distribution;
+	Can we convert Pareto into Gaussian?
+	Pareto: X: x1, x2, …., xn	&	Gaussian Y: y1, y2, ….., yn
+	Box-cox(x) = λ
+	yi = {(xiλ – 1) / λ if λ!=0 and lg(xi) if λ = 0}
+	If λ = 0, then the power law distribution is actually a log normal;
+	scipy.stats.boxcox()
+	Box-cox does not work always. Use QQ-plot to check its results.
+
+
+
+
+
+4.30pm
+
+12.18	Applications of non-Gaussian distributions?
+	Uniform for generating random numbers;
+A well studied distribution gives a theoretical model for the behavior of a random variable
+Weibull distributions: 
+The upstream rainfall determines the height of a dam which stands for 100s of years without repairs; Probability of rainfall > a value is required; 
+This distribution is applied to extreme events such as annual maximum one day rainfalls and river discharges.
+ 
+12.19	Co-variance
+	Task: To determine relationships between different random variables; 
+	Cov(x, y) = (1/n) * sum((xi - µx) (yi - µy))
+	Cov(x, x) = var(x) 
+	Cov(x, y) will be positive if as x increases y increases
+	Cov(x, y) will be negative if as x increases y decreases
+Sign of co-variance is indicative of relationship, the value of co-variance does not indicate strength of relationship;
+
+
+12.20	Pearson Correlation Coefficient
+	To measure relationship between two random variables: ρ
+	Ρx,y = Cov(x, y) /(σx, σy)
+	 
+	ρ = 0  no relation between the two random variables;
+	Pearson relation coefficient assumes that the relationship is linear:
+	 
+	Does not perform well with non-linear relationships;
+	 
+	The above plot has a monotonically non decreasing curve
+12.21	Spearman Rank Correlation Coefficient
+	Pearson corr coeff: works for linear relationships
+Spearman rank corr coeff:  	this is Pearson correlation coefficient of ranks of the random variables; Spearman correlation coefficient is much more robust to outliers than Pearson Corr coef
+		   
+	This allows us to understand whether two random variables increase at the same time;
+	 
+		Pearson				Spearman
+
+
+
+
+12.22	Correlation vs Causation
+	Correlation does not imply causation;
+	Example: Number of Nobel Laureates vs Chocolate consumption per capita;
+		The rank correlation coefficient ~ 0.8
+		As x increased y increased;
+But we know that as chocolate consumption and Number of Nobel Laureates do not relate;
+Causations are studied with causal models which is a separate field of study;
+12.23	How to use correlations?
+	Q. Is salary correlated with sq footage of home?
+	This data will be useful for real estate agents;
+	Q. Is # of years of education correlated with income?
+	Useful for education ministry to encourage people to get more years of study;
+Q. Is time spent on web page in last 24 hours correlated with money spent in the next 24 hours?
+Useful for ecommerce to encourage people to spend more time on the website;
+Q. Is number of unique visitors to the website correlated with the $ sales in a day?
+The company will then take measures to increase number of unique user in a day;
+Q. Dosage correlation with reduction in blood sugar;
+
+Correlations can help us answer these questions;
+
+
+8.30pm
+
+12.24	Confidence interval (C.I) Introduction
+	Let X be a random variable of height values;
+	Distribution of X is unknown;
+	Task: Estimate the population mean of X = μ
+	μ = (1/n) * summ(i = 1 to n) (xi)
+	As n increases sample mean reaches population mean;
+With μ we have a point estimate and μ is sample mean that is calculated over a randomly selected sample of the population;
+Instead we can also express mean in terms of confidence interval;
+Say we have 170 cm as sample mean; we can say that sampling mean lies between 165 and 175 cm for 95% of the sampling experiments when the repeat the sampling multiple times; for 5% of the experiments the mean will not fall in this interval; This does not mean that population mean will lie in the interval with 95% probability;
+Confidence Interval: An N% confidence interval for parameter p is an interval that includes p with probability N%; [Source: Tom Mitchell book]
+
+
+
+
+
+12.25	Computing confidence interval given the underlying distribution
+	Imagine we have a random variable of heights of population;
+	Let this random variable follow a Gaussian distribution; 
+	Let mean = 168 cm and standard deviation = 5
+	 
+We can get 95% CI from Gaussian distribution characteristics which range from μ - 2σ to μ + 2σ, which is 158 to 178 cm;
+12.26	C.I for mean of a random variable
+	Random variable X ~ F(μ, σ)
+	Let sample size be 10;
+	Let samples be {180, 162, 158, 172, 168, 150, 171, 183, 165, 176}
+	What is the 95% CI for population mean; the distribution can be anything; 
+	Case 1: Let σ = 5cm; 
+CLT: sample mean x_bar follows Gaussian distribution with mean = population mean and standard deviation = population standard deviation/sqrt(sample size);
+We can say that μ ε [x_bar - 2σ/sqrt(n), x_bar + 2σ/sqrt(n)] with 95% confidence;
+Thus 95% CI for the samples:
+	x_bar = 168.5
+	n = 10
+Population Mean lies between 165.34 and 171.66 with 95% confidence;
+	Case 2: if σ is unavailable: CLT cannot be applied;
+		We can assume Student’s t distribution; 
+ 
+ν = sample size – 1
+We can apply 95% characteristics of t distribution;
+We have CI for mean; what if we like to have CI for standard deviation, median, 90th percentile and other statistics;
+
+
+
+12.27	Confidence interval using bootstrapping
+	Let X be a random variable with unknown distribution F;
+	Let us compute confidence interval for median of X;
+	S: sample size n {x1, x2, …, xn} n = 10, 20, 40 or 50
+	From sample we generate new samples: 
+		S1: x1(1), x2(1), …., xm(1) and m<=n;
+			Random sample with replacement of size m generated from sample S;
+			Using S as a uniform random variable;
+		Generate k samples;
+		K samples generated from Sample S with replacement;
+		For each sample we can generate the statistic desired;
+		Considering median: we can have k medians from k samples; Let k be 1000;
+		Sort these k medians and consider central 95% of the medians;
+		95% CI for population median is (median25, median975)
+		We can use the same process for computing other statistics;
+This is a non parametric technique to estimate CI for a statistic; and this process is called as bootstrap;
+ 
+ 
+ 
+12.28	Hypothesis testing methodology, Null-hypothesis, p-value
+	Let us have 2 classes; and let the number of students be 50; let us have height values;
+	Q. Is there a difference in heights of students in cl1 and cl2?
+	Say we plot histograms and saw that mean of class 2 is greater than mean of class 1;
+	
+	Hypothesis testing:
+1.	Choosing a test statistic: (μ2 – μ1)
+If μ2 – μ1 = 0 then the classes have same means;
+2.	Define a Null hypothesis (H0): there is no difference in μ2 and μ1
+Alternative hypothesis (H1): there exists a difference in μ2 and μ1
+3.	Compute p-value: probability of observing μ2 – μ1 (that is evident from the observations) if null hypothesis is true;
+Say we have p value = 0.9 for probability of observing a mean difference of 10cm when H0 is true;
+As p value is high than a threshold level (generally 5%) then we accept the null hypothesis else we reject null hypothesis; Also this p value does not tell about the acceptance of alternate hypothesis or the probability of acceptance of null hypothesis;
+Taken an observation of μ2 – μ1 from the classes which is equal to 10 that is μ2 – μ1 = 10 the ground truth statistic that has already occurred; and computing the p value as the conditional probability of finding μ2 – μ1 = 10 given H0 (which says that there is no difference in means); if the p value is less than threshold that is 5% we reject null hypothesis saying that we cannot accept that there is no difference in means and we reject null hypothesis in favour of the alternate hypothesis; if the p value is > 5% we say that we don’t have sufficient  the null hypothesis saying that there is sufficient evidence that the observed value occurs under the null hypothesis with satisfactory probability;
+P value says that what is the probability of an observation statistic occurs under null hypothesis;
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+12.29	Hypothesis testing intuition with coin toss example
+	Example: Given a coin determine if the coin is biased towards heads or not;
+		Biased towards head: P(H )> 0.5
+		Not biased: P(H) = 5;
+	Design an experiment: flip a coin 5 times and count # of heads = X random variable;
+		This X is the test statistic; (the number of heads)
+	Perform experiment: Let that we got 5 heads; test statistic X = 5 the observed value;
+		Let the null hypothesis be “coin is not biased towards head”
+		 P(X=5|coin is not biased towards head) = ?
+		Probability of observed value given null hypothesis;
+		P(X=5|H0) = (½)5 ~ 0.03
+		P(X=5|H0) = 0.03 < 0.05
+	Recap: p –value = Probability of observing an observed value given a null hypothesis
+If p-value < 0.05 then null hypothesis is incorrect as observation is ground truth it cannot be incorrect; we then reject null hypothesis in favor of alternative hypothesis;
+We reject that the coin is unbiased and accept that the coin is biased;
+We have sample size as a choice; we have 5 coin flips, we can have 3 flips, 10 flips or 100 flips; and can perform the experiment;
+If 3 flips are used and let us observe 3 Heads; 
+	p-value = ½*½*½ = 1/8 = 12.5% > 5%
+	Thus we fail to reject the null hypothesis; we accept null hypothesis;
+
+Important criterion for hypothesis testing:
+1.	Design of the experiment
+2.	Defining Null Hypothesis
+3.	Design Test statistic
+Error: 	p-value <5%  reject H0
+P-value is the probability of observation given H0; we cannot say anything about probability of H0 being true;
+12.30	Re-sampling and permutation test
+	We have the same student heights;
+We have 2 classes with 50 height observations each; Take means and compute the difference between the means, let this difference be D;
+We then mix all height values into a 100 value vector and randomly sample 50 points from the 100 points to form X vector and rest 50 into Y vector;
+We have mean of X and mean of Y: the difference of these means is the mean difference of Sample 1;
+Similarly we will generate n samples and compute mean difference; we will have n mean differences; (Note to make random sampling for picking 50 points)
+Let n = 10 000; 
+The mean differences are sorted; We will now have D1, D2, …., D10000 in sorted order;
+Now place the original mean difference before sampling in the sorted means list;
+Computing the percentage of Di values that are greater D will generate a p-value;
+Say D ~ D9500; then we have 500 D values (from D9501 to D10000) that are greater than D; thus we have 5% of values; hence p-value = 5%; we can compute p-value with this process;
+Why is this percentage considered as p-value; Initially while jumbling we assumed that there is no difference in the means of the 2 classes or 2 height lists; this is the assumption of null hypothesis; then we have experimented with sampling for 10000 iterations;
+If the percentage of the sorted sample differences that are greater than original mean difference D is less than threshold value 5% then the sampling is not random; this implies that null hypothesis should be rejected;
+p-value thresholds depends on problem; For medical purposes p-value of 1% is reasonable; generally p-value threshold is kept at 5%;
+12.31	K-S Test for similarity of two distributions
+	Kolmogorov-Smirnov test:
+		Do two random variables X1 and X2 follow same distribution?
+		We plot CDF for both random variables;
+		We will be using hypothesis testing;
+		Null hypothesis: the two random variables come from same distribution;
+		Alternative hypothesis: both don’t come from same distribution;
+		Test statistic; D = CDF(X1) – CDF(X2) throughout the CDF range;
+= supremum (CDF(X1) – CDF(X2)) 
+= max of ( CDF(X1 distribution) – CDF(X2 distribution) ) 
+(at same value on x axis)
+		Null hypothesis is rejected at level α, when D > c(α) * sqrt( (n+m)/nm )
+	c(α) = sqrt(-0.5*ln(α/2))
+	D > (1/n0.5)* ( sqrt( -0.5 * ln(α) * (1+ (n/m)) )
+12.32	Code Snippet K-S Test
+	Normal distribution:
+	   
+	
+	 
+	P- value is high thus X comes from Normal distribution;
+	Uniform distribution:
+	 
+ 
+P-value is low thus X does not follow Normal distribution (we already know that X follows Uniform distribution)
+12.33	Hypothesis testing: another example
+	Difference of means:
+Given heights list of two cities, determine if the population means of heights in these two cities is same or not;
+Experiment: We cannot collect the whole population data; we will take a sample; say we collect height of 50 random people from both the cities;
+Compute sample means from both cities μA (let = 162 cm) and μB (let = 167 cm); these are sample means as population data collection is infeasible;
+Test statistic: Mean of city A – Mean of city B = 167 – 62 = 5 cm
+Null hypothesis: μB – μA = 0; there is no difference in means of height values of two cities;
+Alternative hypothesis: μB – μA != 0
+Compute: P(μB – μA = 5 cm | H0) = probability of observing a difference of 5 cm in sample mean heights of sample size 50 between two cities if there is no difference in mean heights;
+Case 1: P(μB – μA = 5 cm | H0) = 0.2 = 20%
+There is a 20% chance of observing 5% difference in sample mean heights of C1 and C2 with 50 sample size if there is no population mean difference in heights;
+As 20% is significant then null hypothesis must be true; We accept the null hypothesis;
+Case 2: P(μB – μA = 5 cm | H0) = 0.03 = 3%
+There is a 3% chance of observing 5% difference in sample mean heights of C1 and C2 with 50 sample size if there is no population mean difference in heights;
+As 3% is insignificant then null hypothesis must be False; we reject null hypothesis and accept the alternative hypothesis
+12.34	Re-sampling and Permutation test: another example
+	We have:
+Test statistic: μB – μA = 5 cm with sample size of 50; 
+Null hypothesis: no difference in population means
+List of C1 and C2 heights;
+Step 1: S = {C1 U C2} = set of 100 heights
+Step 2: From set S, randomly select 50 heights for S1 and 50 heights for S2
+Compute means of these S1 and S2 heights: μ1 and μ2; we have re-sampled the data set; with this we are making an assumption that there is no difference in μB and μA, which is the null hypothesis;
+Compute: μ2 - μ1 
+	Step 3: Repeat Step 2 for k times, let k = 1000
+Result: we will have 1000 (μ2 - μ1); sort these; these are simulated differences 	under null hypothesis
+		Result: we will have 1000 (μ2 - μ1) (sorted) and we have μB – μA = 5 cm
+Compute the percentage of simulated means that are greater than test statistic; this is the p-value which can be checked for significance at α level;
+	Note: simulated differences are computed using Null Hypothesis;
+P(observed difference|H0) = percentage of simulated means that are greater than test statistic = p-value; if p-value > 5% accept null hypothesis else reject null hypothesis;
+Observed difference can never be incorrect as it is ground truth generated from the data; Acceptance or rejection happens with null hypothesis;
+12.35	How to use hypothesis testing?
+	Determining two random variables follow same distribution;
+Drug testing: Effectiveness of a new drug over an old drug; claim new drug makes recovery fever from fever in comparison to old drug;
+		Collect 100 patients: randomly split into two groups of 50 people each;
+Administer old drug to group A and new drug to group B; record time taken for all the 100 people to recover;
+		Let mean time for old drug people be 4 hours and for new drug people be 2 hrs
+Mean tells that the new drug is performing well; note that the sample size is 50; thus hypothesis is applied;
+H0: Old drug and new drug take same time for recovery;
+Test statistic: μold – μnew = 2;
+P(μold – μnew = 2 | H0) = ? (let = 1%)
+If there is no difference in old drug and new drug then the probability of observing μold – μnew = 2is 1%; this implies that the null hypothesis and observation do not agree with each other, thus null hypothesis is incorrect;
+P-value: agreement between null hypothesis and the test statistic;
+Probability value is computed using re-sampling and permutation test; combine the datasets into 1 large set and sample randomly and compute test statistics for samples and sort the results; find the percentage of values that are greater than the original test statistic value;
+Significance level is problem specific; for problems such as medical tests significance level is 0.1% or1%; for ecommerce 3% or 5% are generally taken;
+	Can be used for computing average spending of a set of people;
+12.36	Proportional Sampling
+	Let d: [d1, d2, d3, d4, d5] = [2.0, 6.0, 1.2, 5.8, 20.0]
+Task: pick an element from the list such that the probability of picking the element is proportional to the value; 
+For random selection the probability of picking any value is equal to all other values;
+But the task requires proportional sampling:
+1.	a. Compute sum of all the elements in the list: = 35.0
+b. Divide list with the sum, list = [0.0571, 0.171428, 0.0343, 0.1657, 0.5714]
+	Sum of all these values = 1 and all are between 0 and 1
+c. Cumulate the list: 
+	C_list = [0.0571, 0.228528, 0.262828, 0.428528, 1.00]
+2.	Sample one value from Uniform distribution between 0 and 1; let r = 0.6;
+3.	Use C_list; place r in the list and return the original value at the index at which r is placed;
+In C_list the gap between values is proportional to the original values; as random number r is generated from a uniform distribution; the probability of picking any value is equal to the gap between the elements in C_list in turn proportional to the original list values;
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Skipping the hypothesis Theorem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
