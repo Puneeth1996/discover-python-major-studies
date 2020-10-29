@@ -165,22 +165,83 @@ So distributions give us a theoretical model of a random variable; This will hel
 
 
 
+4.20pm
+
+12.11	Chebyshev’s inequality
+If we don’t know the distribution and mean is finite and standard deviation is non-zero and finite;
+Task: to find the percentage of values of lie within a range;
+Salaries of individuals (millions of values); distribution is unknown, but mean and std dev are known;
+P(|x - µ| >= kσ) <= 1/k2
 
 
 
 
 
 
+12.12	Discrete and Continuous Uniform distributions
+	PDF for continuous and PMF for discrete random variables;
+	Roll a dice: uniform distribution; each observation is equally probable;
+	Discrete Uniform: 
+Parameters (a,b,n=b-a+1)
+		Pmf = 1/n
+		Mean = (a+b) /2 = Median
+		Variance = ((b-a+1)2-1)/12
+		Skewness = 0
+	Continuous Uniform:
+		 Parameter: a,b
+		PDF: 1/(b-a)
+		Mean: (a+b)/2 = Median
+Variance = (b-a)2/12
+
+
+29 Oct 2020
+3.30pm
+
+
+12.13	How to randomly sample data points (Uniform Distribution)
+	Using random functions in python;
+	We can use a threshold value to generate a random number of random numbers;
+	Probability of picking any value is equally probable;
+
+
+
+12.14	Bernoulli and Binomial Distribution
+	Bernoulli: discrete: Coin toss:{H, T}, P = {0.5, 0.5}; parameter p
+	Binomial: X ~ Bernoulli and Y = n times X; parameters: n, p
+	An event with n trials with success probability p in each trial and p = 0 or 1
+12.15	Log Normal Distribution
+	X is log normal if natural logarithm of x is normally distributed;
+	  
+In user reviews: most of comments are of small length and some of comments have large length of words;
+We can employ QQ plot to check similarity of log of distribution to normal distribution;
+12.16	Power law distribution
+	 
+	Green area is 80% values;
+	In bottom 20% of values you can find 80% of mass;
+When a distribution follows a power law then the distribution is called Pareto distribution; 
+Parameters: scale and shape
+  
+Applications: allocation of wealth in population, sizes of human settlements; 
+  
+We can also use a QQ plot against Pareto plot;
+
+
+
+4pm
 
 
 
 
-
-
-
-
-
-
+12.17	Box cox transform
+	Power transform:
+	In Machine Learning we assume generally that a feature follows a Gaussian distribution;
+	Can we convert Pareto into Gaussian?
+	Pareto: X: x1, x2, …., xn	&	Gaussian Y: y1, y2, ….., yn
+	Box-cox(x) = λ
+	yi = {(xiλ – 1) / λ if λ!=0 and lg(xi) if λ = 0}
+	If λ = 0, then the power law distribution is actually a log normal;
+	scipy.stats.boxcox()
+	Box-cox does not work always. Use QQ-plot to check its results.
 
 
 
