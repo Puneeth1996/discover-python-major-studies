@@ -57,8 +57,7 @@ Lynda - Python - Data Analysis
 D:\DATASCIENCE 12july2020\Courses 12 July 2020 
 
 
-Branch Name 
-Lynda_DataAnalysis
+Branch Name : Lynda_DataAnalysis
 
 
 
