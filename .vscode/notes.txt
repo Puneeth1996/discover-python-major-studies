@@ -18,15 +18,38 @@ Everything in "SkillShare-AdvancedPythonSkills" branched
 1 intro
 2 zip function usefull to combine list, dictionaries, strings of same length, and of iterators type
 3  zip_longest function , slight modification, while the zip function combine inreference to shortest iterator, this combines with longest and puts None in empty fields
+] enumerate - creates [(index, values)...] which is super usefull
+5 lambda functions - ananymous function
+6 sorting with key sort and sorted functions
+7 map function
+8 filter function
+9 iterators and iterables
+10 generators
+11 any and all call
+12 closures
+13 *args = tuple and **kwargs = dictionaries
+14 decorators
+15 chaining decorators
+16 the property of decorators - setters brief look
+17 the-classmethod-decorator
+18 static method decorators
+19 reduce
+20 accumulate
+21 getting-and-setting-values-properly-in-a-dictionary
+22 the-counter-class
+23 sets
+24 operations-on-sets
+25 frozensets
+26 files-you-must-have-in-every-python-project
+27 python-dotenv
+28 custom-exceptions
+29 unit-testing-with-pytest
+30 fixtures
+31 parametrized-tests
 
-
-
-
-
-
-
-
-
+30 Oct 2020
+1am
+Completed 
 
 
 
