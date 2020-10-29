@@ -13,6 +13,12 @@ Everything in "SkillShare-AdvancedPythonSkills" branched
 
 
 
+10.30pm
+
+1 intro
+2 zip function usefull to combine list, dictionaries, strings of same length, and of iterators type
+3  zip_longest function , slight modification, while the zip function combine inreference to shortest iterator, this combines with longest and puts None in empty fields
+
 
 
 
