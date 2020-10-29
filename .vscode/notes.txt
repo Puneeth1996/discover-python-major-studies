@@ -247,10 +247,64 @@ We can also use a QQ plot against Pareto plot;
 
 
 
+4.30pm
+
+12.18	Applications of non-Gaussian distributions?
+	Uniform for generating random numbers;
+A well studied distribution gives a theoretical model for the behavior of a random variable
+Weibull distributions: 
+The upstream rainfall determines the height of a dam which stands for 100s of years without repairs; Probability of rainfall > a value is required; 
+This distribution is applied to extreme events such as annual maximum one day rainfalls and river discharges.
+ 
+12.19	Co-variance
+	Task: To determine relationships between different random variables; 
+	Cov(x, y) = (1/n) * sum((xi - µx) (yi - µy))
+	Cov(x, x) = var(x) 
+	Cov(x, y) will be positive if as x increases y increases
+	Cov(x, y) will be negative if as x increases y decreases
+Sign of co-variance is indicative of relationship, the value of co-variance does not indicate strength of relationship;
+
+
+12.20	Pearson Correlation Coefficient
+	To measure relationship between two random variables: ρ
+	Ρx,y = Cov(x, y) /(σx, σy)
+	 
+	ρ = 0  no relation between the two random variables;
+	Pearson relation coefficient assumes that the relationship is linear:
+	 
+	Does not perform well with non-linear relationships;
+	 
+	The above plot has a monotonically non decreasing curve
+12.21	Spearman Rank Correlation Coefficient
+	Pearson corr coeff: works for linear relationships
+Spearman rank corr coeff:  	this is Pearson correlation coefficient of ranks of the random variables; Spearman correlation coefficient is much more robust to outliers than Pearson Corr coef
+		   
+	This allows us to understand whether two random variables increase at the same time;
+	 
+		Pearson				Spearman
 
 
 
 
+12.22	Correlation vs Causation
+	Correlation does not imply causation;
+	Example: Number of Nobel Laureates vs Chocolate consumption per capita;
+		The rank correlation coefficient ~ 0.8
+		As x increased y increased;
+But we know that as chocolate consumption and Number of Nobel Laureates do not relate;
+Causations are studied with causal models which is a separate field of study;
+12.23	How to use correlations?
+	Q. Is salary correlated with sq footage of home?
+	This data will be useful for real estate agents;
+	Q. Is # of years of education correlated with income?
+	Useful for education ministry to encourage people to get more years of study;
+Q. Is time spent on web page in last 24 hours correlated with money spent in the next 24 hours?
+Useful for ecommerce to encourage people to spend more time on the website;
+Q. Is number of unique visitors to the website correlated with the $ sales in a day?
+The company will then take measures to increase number of unique user in a day;
+Q. Dosage correlation with reduction in blood sugar;
+
+Correlations can help us answer these questions;
 
 
 

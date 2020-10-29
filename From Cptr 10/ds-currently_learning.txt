@@ -1,0 +1,164 @@
+Oct-29-2020
+
+
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+C:\Users\punee\Desktop\python-ds\currently_learning and ['11.24 - Confidence interval (C.I) Introduction', '11.25 - Computing confidence interval given the underlying distribution', '11.26 - C.I for mean of a normal random variable', '11.27 - Confidence interval using bootstrapping', '11.28 - Hypothesis testing methodology, Null-hypothesis, p-value', '11.29 - Hypothesis Testing Intution with coin toss example', '11.30 - Resampling and permutation test', '11.31 - K-S Test for similarity of two distributions', '11.32 - Code Snippet K-S Test', '11.33 - Hypothesis testing another example', '11.34 - Resampling and Permutation test another example', '11.35 - How to use hypothesis testing', '11.36 - Proportional Sampling', '11.37 - Revision Questions'] and []
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.24 - Confidence interval (C.I) Introduction and [] and ['11.24 - Confidence interval (C.I) Introduction.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.24 - Confidence interval (C.I) Introduction.mp4
+Vedio Duration = 0hrs:7mins:42secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.25 - Computing confidence interval given the underlying distribution and [] and ['11.25 - Computing confidence interval given the underlying distribution.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.25 - Computing confidence interval given the underlying distribution.mp4
+Vedio Duration = 0hrs:10mins:2secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.26 - C.I for mean of a normal random variable and [] and ['11.26 - C.I for mean of a normal random variable.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.26 - C.I for mean of a normal random variable.mp4
+Vedio Duration = 0hrs:13mins:30secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.27 - Confidence interval using bootstrapping and [] and ['11.27 - Confidence interval using bootstrapping.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.27 - Confidence interval using bootstrapping.mp4
+Vedio Duration = 0hrs:17mins:53secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.28 - Hypothesis testing methodology, Null-hypothesis, p-value and [] and ['11.28 - Hypothesis testing methodology, Null-hypothesis, p-value.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.28 - Hypothesis testing methodology, Null-hypothesis, p-value.mp4
+Vedio Duration = 0hrs:15mins:8secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.29 - Hypothesis Testing Intution with coin toss example and [] and ['11.29 - Hypothesis Testing Intution with coin toss example.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.29 - Hypothesis Testing Intution with coin toss example.mp4
+Vedio Duration = 0hrs:26mins:13secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.30 - Resampling and permutation test and [] and ['11.30 - Resampling and permutation test.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.30 - Resampling and permutation test.mp4
+Vedio Duration = 0hrs:14mins:28secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.31 - K-S Test for similarity of two distributions and [] and ['11.31 - K-S Test for similarity of two distributions.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.31 - K-S Test for similarity of two distributions.mp4
+Vedio Duration = 0hrs:14mins:11secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.32 - Code Snippet K-S Test and [] and ['11.32 - Code Snippet K-S Test.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.32 - Code Snippet K-S Test.mp4
+Vedio Duration = 0hrs:5mins:2secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.33 - Hypothesis testing another example and [] and ['11.33 - Hypothesis testing another example.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.33 - Hypothesis testing another example.mp4
+Vedio Duration = 0hrs:17mins:59secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.34 - Resampling and Permutation test another example and [] and ['11.34 - Resampling and Permutation test another example.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.34 - Resampling and Permutation test another example.mp4
+Vedio Duration = 0hrs:18mins:57secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.35 - How to use hypothesis testing and [] and ['11.35 - How to use hypothesis testing.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.35 - How to use hypothesis testing.mp4
+Vedio Duration = 0hrs:22mins:24secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.36 - Proportional Sampling and [] and ['11.36 - Proportional Sampling.mp4', 'FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+11.36 - Proportional Sampling.mp4
+Vedio Duration = 0hrs:17mins:34secs
+
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
+C:\Users\punee\Desktop\python-ds\currently_learning\11.37 - Revision Questions and [] and ['FTUApps.com website coming soon.txt', 'How you can help Team-FTU.txt', 'out.pdf', '[FreeCoursesOnline.Me].url', '[FreeTutorials.Eu].url', '[FTU Forum].url']
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+
+
