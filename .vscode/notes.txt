@@ -63,14 +63,18 @@ Let Start learning about data Analysis in python
 
 
 
+06 Nov 2020
+11.50am
 
 
 
+Lynda 
+
+GeorgeReeves999
+43215
 
 
-
-
-
+Course Link:            https://www.lynda.com/Numpy-tutorials/Introduction-Data-Analysis-Python/419162-2.html
 
 
 
