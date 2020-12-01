@@ -76,13 +76,19 @@ GeorgeReeves999
 
 Course Link:            https://www.lynda.com/Numpy-tutorials/Introduction-Data-Analysis-Python/419162-2.html
 
+1Dec 2020
+11.45am 
+
+        10-Word anagram overview
+
+
+Not so interesting in this 
+
+        ENDING AT 18-Indexing and slicing.mp4
 
 
 
-
-
-
-
+-----------------------------------------------------------------------------------
 
 
 
